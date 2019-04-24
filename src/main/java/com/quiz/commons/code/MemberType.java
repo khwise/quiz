@@ -35,7 +35,7 @@ public enum MemberType {
     private static final Map<String, MemberType> map
             = Stream.of(MemberType.values()).collect(Collectors.toMap(MemberType::getCode, Function.identity()));
 
-    public static MemberType from(int code) {
+    public static MemberType from(String code) {
         return map.get(code);
     }
 }

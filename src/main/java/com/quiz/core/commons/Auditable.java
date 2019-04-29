@@ -1,4 +1,4 @@
-package com.quiz.commons.domain;
+package com.quiz.core.commons;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

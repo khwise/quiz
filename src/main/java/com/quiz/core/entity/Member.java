@@ -2,7 +2,7 @@ package com.quiz.core.entity;
 
 import com.quiz.commons.code.MemberStateCode;
 import com.quiz.commons.code.MemberType;
-import com.quiz.commons.domain.Auditable;
+import com.quiz.core.commons.Auditable;
 import com.quiz.core.persistences.converts.MemberStateCodeConverter;
 import com.quiz.core.persistences.converts.MemberTypeConverter;
 import lombok.AllArgsConstructor;

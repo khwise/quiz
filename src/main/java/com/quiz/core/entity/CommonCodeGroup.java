@@ -2,7 +2,10 @@ package com.quiz.core.entity;
 
 import com.quiz.core.commons.Auditable;
 import com.quiz.core.persistences.converts.BooleanConverter;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.Max;
@@ -12,6 +15,9 @@ import javax.validation.constraints.NotBlank;
 @Entity
 @Table(name = "tb_common_code_group")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class CommonCodeGroup extends Auditable<Long> {
 
     @Id

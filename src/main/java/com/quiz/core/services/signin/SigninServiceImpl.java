@@ -14,7 +14,7 @@ import org.springframework.util.StringUtils;
 @Service
 public class SigninServiceImpl implements SigninService {
 
-    private static final Logger log = LoggerFactory.getLogger(SigninServiceImpl.class);
+    private final Logger log = LoggerFactory.getLogger(SigninServiceImpl.class);
 
     private MemberRepositoryService memberRepositoryService;
 

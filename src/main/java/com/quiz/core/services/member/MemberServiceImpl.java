@@ -18,7 +18,7 @@ import java.time.LocalDate;
 @Service
 public class MemberServiceImpl implements MemberService {
 
-    private static final Logger log = LoggerFactory.getLogger(MemberServiceImpl.class);
+    private final Logger log = LoggerFactory.getLogger(MemberServiceImpl.class);
 
     private MemberRepository memberRepository;
 

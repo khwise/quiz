@@ -2,9 +2,6 @@ package com.quiz.web.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.http.HttpStatus;
-
-import java.util.Optional;
 
 @Data
 @NoArgsConstructor

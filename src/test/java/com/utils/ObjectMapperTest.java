@@ -1,7 +1,6 @@
 package com.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.Data;
 import lombok.Setter;
 import org.junit.Assert;
 import org.junit.Before;

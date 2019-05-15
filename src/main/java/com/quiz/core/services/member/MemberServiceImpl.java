@@ -8,7 +8,6 @@ import com.quiz.web.dto.DefaultResponse;
 import com.quiz.web.dto.JoinRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

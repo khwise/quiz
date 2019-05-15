@@ -12,7 +12,6 @@ import lombok.EqualsAndHashCode;
 public class BusinessException extends RuntimeException {
 
     public BusinessException() {
-
     }
 
     @Override

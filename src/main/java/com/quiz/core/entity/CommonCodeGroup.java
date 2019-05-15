@@ -8,9 +8,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "tb_common_code_group")
@@ -22,8 +21,7 @@ public class CommonCodeGroup extends Auditable<Long> {
 
     @Id
     @Column(name = "group_id")
-    @Min(4)
-    @Max(4)
+    @Size(min = 4, max = 4)
     private String groupId;
 
     @Column(name = "code_nm")
